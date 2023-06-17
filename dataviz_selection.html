@@ -377,6 +377,7 @@ function getImg(clicked_id){
     
     
     document.getElementById("image_id").innerHTML =  "Selected graph type: "+ SelectedImage;
+    document.getElementById("myCheck1").checked = false;
     switch(clicked_id){
         case "bar": 
             chartDiv1.innerHTML = "<img src='images/logo/bar_chart.png' alt='Bar chart' style='max-width: 500px'>";
@@ -413,6 +414,8 @@ function getImg(clicked_id){
     }
     
 }
+    
+      
     
 </script>
 </section>  
