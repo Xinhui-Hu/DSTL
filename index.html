@@ -203,7 +203,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
   }
   
   .step2_options {
@@ -213,8 +213,8 @@
   }
   
   .step2_option {
-    width: 210px;
-    height: 210px;
+    width: 180px;
+    height: 180px;
     background-color: white;
     border: 1px solid #ccc;
     display: flex;
@@ -372,19 +372,19 @@ a:active { text-decoration: none; }
                                   <div class="step2_options">
                                     <div class="step2_option stack">
                                       
-                                      <span class="dstl_color" style="font-weight: bold"><input type="image" src="images/logo/achievement_narrative.png" name="achievement" class="submit" id="achievement" onclick="getMotivation(this.id)" value="Achievement Narrative" style="width: 120px"/><br>Achievement Narrative</span>
+                                      <span class="dstl_color" style="font-weight: bold"><input type="image" src="images/logo/achievement_narrative.png" name="achievement" class="submit" id="achievement" onclick="getMotivation(this.id)" value="Achievement Narrative" style="width: 100px"/><br>Achievement Narrative</span>
                                     </div>
                                     <div class="step2_option">
-                                      <span class="dstl_color" style="font-weight: bold"><input type="image" src="images/logo/benchmarking.png" name="benchmarking" class="submit" id="benchmarking" onclick="getMotivation(this.id)" value="Benchmarking Narrative" style="width: 120px"/><br>Benchmarking Narrative</span>
+                                      <span class="dstl_color" style="font-weight: bold"><input type="image" src="images/logo/benchmarking.png" name="benchmarking" class="submit" id="benchmarking" onclick="getMotivation(this.id)" value="Benchmarking Narrative" style="width: 100px"/><br>Benchmarking Narrative</span>
                                     </div>
                                     <div class="step2_option">
-                                      <span class="dstl_color" style="font-weight: bold"><input type="image" src="images/logo/justification.png" name="justification" class="submit" id="justification" onclick="getMotivation(this.id)" value="Justification Narrative" style="width: 120px"/><br>Justification Narrative</span>
+                                      <span class="dstl_color" style="font-weight: bold"><input type="image" src="images/logo/justification.png" name="justification" class="submit" id="justification" onclick="getMotivation(this.id)" value="Justification Narrative" style="width: 100px"/><br>Justification Narrative</span>
                                     </div>
                                   </div>
-                                  <div class="step2_text" style="background: white; width: 90.5%; ">
-                                      <p id="step2_lower_p1" style="padding: 0px; margin: 0px; font-size: 12pt" >Please select your Argument</p>
-                                      <p id="step2_lower_p2"  style="padding: 0px; margin: 0px;font-size: 12pt">Please select your Motivation</p>
-                                      <p id="step2_lower_p3"  style="padding: 0px; margin: 0px;font-size: 12pt"></p>
+                                  <div class="step2_text" style="background: white; width: 620px; overflow-y: scroll position: relative">
+                                      <p id="step2_lower_p1" style="padding: 0px; margin: 0px; font-size: 10pt" >Please select your Argument</p>
+                                      <p id="step2_lower_p2"  style="padding: 0px; margin: 0px;font-size: 10pt">Please select your Motivation</p>
+                                      <p id="step2_lower_p3"  style="padding: 0px; margin: 0px;font-size: 10pt"></p>
                                       
                                   </div>
                                 </div>
@@ -398,8 +398,8 @@ a:active { text-decoration: none; }
                                 <script>
                                    const step2_p2 ={
                                         achievement:"<ul class='dstl_color'><li>Ask for funding and other resources to fulfill an identified unmet need</li><li>Explain what is needed and why (library strengths, deficits, or community composition</li></ul>",
-                                        benchmarking:"<ul class='dstl_color'><li>Demonstrate the impact of funding and other resources<br><span style='color:black; font-weight: normal; font-size:16px;'>&#x2022 Successfully served the identified needs<br>&#x2022 Communicate the impact and justify the works</span></li><li>Explain what is needed and why (library strengths, deficits, or community composition<br><span style='color:black; font-weight: normal;font-size:16px'>&#x2022 Need more support in serving the identified <br> &#x2022 Explain to stakeholders </span></li></ul>",
-                                        justification: "<ul class='dstl_color'><li>Ask for funding and other resources<br><span style='color:black; font-weight: normal; font-size:16px;'>&#x2022 Identify the resources needed to fill the gaps with other libraries</span></li><li>Demonstrate the impact of funding and other resources<span style='color:black; font-weight: normal;font-size:16px'><br>&#x2022 Demonstrate how well your library has done compared to other libraries </span></li><li>Explain what is needed and why (library strengths, deficits, or community composition<span style='color:black; font-weight: normal;font-size:16px'><br>&#x2022 Articulate the challenges and difficulties that prevent your library keep up with other libraries </span></li></ul>",
+                                        benchmarking:"<ul class='dstl_color'><li>Demonstrate the impact of funding and other resources<br><span style='color:black; font-weight: normal; font-size:10pt;'>&#x2022 Successfully served the identified needs<br>&#x2022 Communicate the impact and justify the works</span></li><li>Explain what is needed and why (library strengths, deficits, or community composition<br><span style='color:black; font-weight: normal;font-size:10pt'>&#x2022 Need more support in serving the identified <br> &#x2022 Explain to stakeholders </span></li></ul>",
+                                        justification: "<ul class='dstl_color'><li>Ask for funding and other resources<br><span style='color:black; font-weight: normal; font-size:16px;'>&#x2022 Identify the resources needed to fill the gaps with other libraries</span></li><li>Demonstrate the impact of funding and other resources<span style='color:black; font-weight: normal;font-size:10pt'><br>&#x2022 Demonstrate how well your library has done compared to other libraries </span></li><li>Explain what is needed and why (library strengths, deficits, or community composition<span style='color:black; font-weight: normal;font-size:10pt'><br>&#x2022 Articulate the challenges and difficulties that prevent your library keep up with other libraries </span></li></ul>",
                                         //strength: "<ul class='dstl_color'><li>Ask for funding and other resources</li><li>Explain what is needed and why (library strengths, deficits, or community composition<br><span style='color:black; font-weight: normal;font-size:16px'>&#x2022 Identify the resources needed to further build on the existing strength </span></li></ul>",
                                         //deficit:"<ul class='dstl_color'><li>Ask for funding and other resources</li><li>Explain what is needed and why (library strengths, deficits, or community composition<br><span style='color:black; font-weight: normal;font-size:16px'>&#x2022 Identify the resources needed to effectively address on the encountered deficits </span></li></ul>",                                       
                                     }
@@ -513,37 +513,37 @@ a:active { text-decoration: none; }
 								<div class="top_center " style=" padding: 25px; width: 80%">
 									<h2 class="dstl_color" >Step3: Choose the attitude of your intended audiences</h2>
                                     <!--Button icons-->
-                                      <div class="higher-div" style="height:200px">
-                                        <div class="image-grid" style="margin-top: 15%;">
+                                      <div class="higher-div" style="height:150px">
+                                        <div class="image-grid" style="margin-top: 10%;">
                                           <button id="positive" value="Positive" onclick="getAttitude(this.id)">
-                                            <a href="#step4"><img src="images/logo/positive_orange.png" alt="positive"></a>
-                                            <span class="dstl_color" style="font-size: 20px">Positive</span>
+                                            <a href="#step4"><img src="images/logo/positive_orange.png" alt="positive" style="height: 135px;"></a>
+                                            <span class="dstl_color" style="font-size: 18pt">Positive</span>
                                             <div class="details-window" style="color: black; margin-top: 20px;">
-                                              <p style="overflow: auto">The audience is likely to support your argument<br> and agree with your motivation.</p>
+                                              <p style="overflow: auto; ">The audience is likely to support your argument<br> and agree with your motivation.</p>
                                             </div>
                                           </button>
                                           <button id="negative" value="Negative" onclick="getAttitude(this.id)">
-                                              <a href="#step4"><img src="images/logo/negative_orange.png" alt="negative"></a>
-                                            <span class="dstl_color" style="font-size: 20px">Negative</span>
+                                              <a href="#step4"><img src="images/logo/negative_orange.png" alt="negative"  style="height: 135px"></a>
+                                            <span class="dstl_color" style="font-size: 18pt">Negative</span>
                                             <div class="details-window" style="color: black ; margin-top: 20px">
                                               
-                                              <p>The audience is likely to disagree with <br>your argument and your motivation.</p>
+                                              <p style="overflow: auto; ">The audience is likely to disagree with <br>your argument and your motivation.</p>
                                             </div>
                                           </button>
                                           <button id="mixed" value="Mixed" onclick="getAttitude(this.id)">
-                                              <a href="#step4"><img src="images/logo/mixed_orange.png" alt="mixed"></a>
-                                            <span class="dstl_color" style="font-size: 20px">Mixed</span>
+                                              <a href="#step4"><img src="images/logo/mixed_orange.png" alt="mixed" style="height: 135px"></a>
+                                            <span class="dstl_color" style="font-size: 18pt">Mixed</span>
                                             <div class="details-window" style="color: black ; margin-top: 20px">
                                              
-                                              <p>Some of the audience agrees with your argument<br> and motivation but some do not.</p>
+                                              <p style="overflow: auto; ">Some of the audience agrees with your argument<br> and motivation but some do not.</p>
                                             </div>
                                           </button>
                                           <button id="polarized" value="Polarized" onclick="getAttitude(this.id)">
-                                              <a href="#step4"><img src="images/logo/polarized_orange.png" alt="polarized"></a>
-                                            <span class="dstl_color" style="font-size: 20px">Polarized</span>
+                                              <a href="#step4"><img src="images/logo/polarized_orange.png" alt="polarized" style="height: 135px"></a>
+                                            <span class="dstl_color" style="font-size: 18pt">Polarized</span>
                                             <div class="details-window" style="color: black ; margin-top: 20px">
                                               
-                                              <p>Some of the audience is misinformed and disinforming <br>others, so the audience is strongly divided.</p>
+                                              <p style="overflow: auto; ">Some of the audience is misinformed and disinforming <br>others, so the audience is strongly divided.</p>
                                             </div>
                                           </button>
                                         </div>
